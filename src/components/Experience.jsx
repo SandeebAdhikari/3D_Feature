@@ -1,0 +1,22 @@
+import {
+  ContactShadows,
+  Environment,
+  Float,
+  OrbitControls,
+} from "@react-three/drei";
+import { Mug } from "../components/Mug";
+
+export const Experience = () => {
+  return (
+    <>
+      <OrbitControls />
+      <Mug />
+      <Environment preset="city" />
+      {/* <Float>
+          
+        </Float> */}
+      {/* <ContactShadows position-y={-0.5} opacity={0.4} blur={2} />
+          <Environment preset="sunset" background blur={4} /> */}
+    </>
+  );
+};
