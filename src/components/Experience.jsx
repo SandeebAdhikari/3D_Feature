@@ -12,11 +12,8 @@ export const Experience = () => {
       <OrbitControls />
       <Mug />
       <Environment preset="city" />
-      {/* <Float>
-          
-        </Float> */}
-      {/* <ContactShadows position-y={-0.5} opacity={0.4} blur={2} />
-          <Environment preset="sunset" background blur={4} /> */}
+      <ContactShadows position-y={-0.5} opacity={0.4} blur={2} />
+      <Environment preset="city" background blur={4} />
     </>
   );
 };
