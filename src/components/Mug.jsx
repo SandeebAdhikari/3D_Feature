@@ -31,13 +31,14 @@ export function Mug(props) {
 
     posY: {
       value: 0.001,
-      min: 0.001,
-      max: 0.1,
+      min: 0.0001,
+      max: 0.02,
       step: 0.001,
       onChange: (value) => {
         setPos((pos) => [pos[0], value, pos[2]]);
       },
     },
+
     scale: {
       value: 0.07,
       min: 0.05,
